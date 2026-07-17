@@ -1,0 +1,10 @@
+post http://localhost:8080/orders
+content-type: application/json
+
+{
+    "orderId": "subr-order-1",
+    "customerId": "subr-customer-1",
+    "product": "sub-product-1",
+    "quantity": 10,
+    "amount": 100.0
+}
